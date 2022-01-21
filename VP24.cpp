@@ -201,6 +201,26 @@ int main()
 {
     setlocale(LC_ALL, "rus");
 
-    z7 first("123456");
+    z1 first("Раз              ные   сло ва");
+    z2 second("Слвововововоо слово словоооо");
+    z3 third("МИНИМУМ РЕГРЕССИРОВАТЬ");
+    z4 fourth("Аоаоао 6");
+    z5 fifth("C:\\Users\\Ren\\Desktop\\Лабы\\Введение в программирование\\VP18.txt");
+    z6 sixth("C:\\VP18.txt");
+    z7 seventh("Шифрование");
+
+    std::cout << "\n Задача 1\n";
     first.foo();
+    std::cout << "\n Задача 2\n";
+    second.foo();
+    std::cout << "\n Задача 3\n";
+    third.foo();
+    std::cout << "\n Задача 4\n";
+    fourth.foo();
+    std::cout << "\n Задача 5\n";
+    fifth.foo();
+    std::cout << "\n Задача 6\n";
+    sixth.foo();
+    std::cout << "\n Задача 7\n";
+    seventh.foo();
 }
